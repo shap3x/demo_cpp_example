@@ -2,4 +2,5 @@
 .import/
 bin/
 *.so
+*.os
 .sconsign.dblite
