@@ -1,0 +1,5 @@
+.godot/
+.import/
+bin/
+*.so
+.sconsign.dblite
