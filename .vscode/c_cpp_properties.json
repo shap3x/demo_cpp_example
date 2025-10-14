@@ -5,6 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/godot-cpp/gen/include",
                 "${workspaceFolder}/godot-cpp/include",
+                "${workspaceFolder}/include",
                 "${workspaceFolder}/**"
             ],
             "defines": [],

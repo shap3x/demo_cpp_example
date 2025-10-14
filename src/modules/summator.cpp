@@ -1,4 +1,4 @@
-#include "summator.h"
+#include "modules/summator.h"
 #include <godot_cpp/core/class_db.hpp>
 
 void Summator::_bind_methods(){

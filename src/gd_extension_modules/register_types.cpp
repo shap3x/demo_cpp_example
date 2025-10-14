@@ -1,7 +1,6 @@
-#include "register_types.h"
-
-#include "summator.h"
-
+#include "gd_extension_modules/register_types.h"
+#include "modules/summator.h"
+#include "modules/traffic_light.h"
 #include <gdextension_interface.h>
 #include <godot_cpp/core/defs.hpp>
 #include <godot_cpp/godot.hpp>
@@ -14,6 +13,8 @@ void initialize_example_module(ModuleInitializationLevel p_level) {
 	}
 
 	GDREGISTER_RUNTIME_CLASS(Summator);
+	GDREGISTER_RUNTIME_CLASS(TrafficLight);
+
 }
 
 void uninitialize_example_module(ModuleInitializationLevel p_level) {
