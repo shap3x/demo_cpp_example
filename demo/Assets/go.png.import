@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8xvs8xuhjyq2"
-path="res://.godot/imported/giallo.webp-904ebd4d64ccf7f7bbb347f9848afa96.ctex"
+uid="uid://ds6ip6lp06sen"
+path="res://.godot/imported/go.png-47342a375a05d47e7ce1ca7b604f4231.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/giallo.webp"
-dest_files=["res://.godot/imported/giallo.webp-904ebd4d64ccf7f7bbb347f9848afa96.ctex"]
+source_file="res://Assets/go.png"
+dest_files=["res://.godot/imported/go.png-47342a375a05d47e7ce1ca7b604f4231.ctex"]
 
 [params]
 

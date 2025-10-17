@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dh7c2lruu4oa7"
-path="res://.godot/imported/rosso.webp-4cdc65a220891fc1212e1c5e8f826a1b.ctex"
+uid="uid://dx5rcwl6822ui"
+path="res://.godot/imported/stop.png-d082dfdc064a64c57969091fad214f46.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/rosso.webp"
-dest_files=["res://.godot/imported/rosso.webp-4cdc65a220891fc1212e1c5e8f826a1b.ctex"]
+source_file="res://Assets/stop.png"
+dest_files=["res://.godot/imported/stop.png-d082dfdc064a64c57969091fad214f46.ctex"]
 
 [params]
 

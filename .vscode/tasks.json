@@ -1,0 +1,40 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build godot editor debug",
+            "type": "shell",
+            "command": "/home/shape/games/venvGames/bin/scons",
+            "args": [
+               "platform=linux",
+               "bits=64",
+               "verbose=yes",
+               "target=template_debug",
+               "debug_symbols=yes",
+               "tools=yes",
+               "-j",
+               "14"
+            ],
+            "group": "build",
+            // Use the standard MS compiler pattern to detect errors, warnings and infos
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build gdextension debug",
+            "type": "shell",
+            "command": "/home/shape/games/venvGames/bin/scons",
+            "options": { "cwd": "${workspaceFolder}" },            // cartella con SConstruct dell’estensione
+            "args": [
+                "platform=linux",
+                "target=editor",
+                "optimize=debug",
+                "debug_symbols=yes",
+                "-j14"
+            ],
+            "problemMatcher": ["$gcc"],
+            "group": "build"
+        }
+    ]
+}

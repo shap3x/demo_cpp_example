@@ -8,7 +8,9 @@ func _ready() -> void:
 	summator.add(2)
 	print(summator.get_total())
 
+func _on_button_pressed() -> void:
+	$TrafficLight.show_next_light()
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+
+func _on_traffic_light_light_changed(new_light: int) -> void:
+	print(new_light)
