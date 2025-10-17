@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxh6y2wtfjnu5"
-path="res://.godot/imported/verde.webp-66b6ceb6ee3a0276316177e79a126f03.ctex"
+uid="uid://d0xt226mowmc0"
+path="res://.godot/imported/caution.png-32b89cb505cc0b8f2ad3ced6a6666db9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/verde.webp"
-dest_files=["res://.godot/imported/verde.webp-66b6ceb6ee3a0276316177e79a126f03.ctex"]
+source_file="res://Assets/caution.png"
+dest_files=["res://.godot/imported/caution.png-32b89cb505cc0b8f2ad3ced6a6666db9.ctex"]
 
 [params]
 

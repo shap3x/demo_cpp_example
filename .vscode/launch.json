@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Godot + GDExtension",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/usr/bin/godot",
+      "args": ["-e","--path", "${workspaceFolder}/demo"],
+      "cwd": "${workspaceFolder}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "externalConsole": false,
+      "stopAtEntry": false,
+      "environment": [],
+      "preLaunchTask": "build gdextension debug"
+    }
+  ]
+}
