@@ -1,6 +1,7 @@
 #include "gd_extension_modules/register_types.h"
 #include "modules/summator.h"
 #include "modules/traffic_light.h"
+#include "modules/my_player.h"
 #include <gdextension_interface.h>
 #include <godot_cpp/core/defs.hpp>
 #include <godot_cpp/godot.hpp>
@@ -12,9 +13,9 @@ void initialize_example_module(ModuleInitializationLevel p_level) {
 		return;
 	}
 
-	GDREGISTER_RUNTIME_CLASS(Summator);
-	GDREGISTER_RUNTIME_CLASS(TrafficLight);
-
+	GDREGISTER_CLASS(Summator);
+	GDREGISTER_CLASS(TrafficLight);
+	GDREGISTER_RUNTIME_CLASS(MyPlayer);
 }
 
 void uninitialize_example_module(ModuleInitializationLevel p_level) {

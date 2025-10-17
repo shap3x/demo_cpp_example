@@ -7,7 +7,7 @@ using namespace godot;
 class MyPlayer : public CharacterBody2D {
     GDCLASS(MyPlayer,CharacterBody2D);
 
-    float speed = 100.0;
+    float speed = 200.0;
 
     protected:
         static void _bind_methods();
