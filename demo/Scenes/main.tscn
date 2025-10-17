@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://b76nya3is84kv"]
+[gd_scene load_steps=8 format=3 uid="uid://b76nya3is84kv"]
 
 [ext_resource type="Script" uid="uid://c3j0st7vbykro" path="res://Scripts/main.gd" id="1_jjgbg"]
 [ext_resource type="Texture2D" uid="uid://ds6ip6lp06sen" path="res://Assets/go.png" id="2_jjvhh"]
@@ -6,6 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://d0xt226mowmc0" path="res://Assets/caution.png" id="4_21xkr"]
 [ext_resource type="Script" uid="uid://sf6yybpqy74c" path="res://Scenes/traffic_light.gd" id="5_kry3j"]
 [ext_resource type="Texture2D" uid="uid://ch0aljsxfwrd6" path="res://icon.svg" id="6_21xkr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_21xkr"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_jjgbg")
@@ -29,6 +31,14 @@ offset_top = 7.0
 offset_right = 1141.0
 offset_bottom = 143.0
 icon = ExtResource("6_21xkr")
+
+[node name="MyPlayer" type="MyPlayer" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="MyPlayer"]
+texture = ExtResource("6_21xkr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MyPlayer"]
+shape = SubResource("RectangleShape2D_21xkr")
 
 [connection signal="light_changed" from="TrafficLight" to="." method="_on_traffic_light_light_changed"]
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
